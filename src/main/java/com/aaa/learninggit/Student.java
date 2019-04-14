@@ -1,7 +1,6 @@
-package com.aaa.learninggit;
+package com.aaa.learningGit;
 
 public class Student {
-
 	String name;
-	int id;
+
 }
