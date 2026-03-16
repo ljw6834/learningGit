@@ -1,0 +1,10 @@
+services:
+  claude:
+    image: kasmweb/claude-code:1.18.0-rolling-daily
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - /users/lijun//ideaProjects
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+
