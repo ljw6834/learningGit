@@ -2,7 +2,8 @@ services:
   claude:
     image: kasmweb/claude-code:1.18.0-rolling-daily
     ports:
-      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:6901:6901"
+      - "8080:8080"
     volumes:
       - /users/lijun//ideaProjects
     environment:
